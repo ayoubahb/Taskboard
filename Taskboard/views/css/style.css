@@ -1,0 +1,78 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background: url('../img/background.jpg');
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+}
+nav {
+	background-color: #fbeaeb !important;
+}
+
+.task-card {
+	background-color: #f4f5f7;
+}
+.task {
+	background-color: white;
+}
+.task p {
+	width: 80%;
+}
+.task div {
+	width: 22%;
+	text-align: right;
+}
+#search{
+	height: 40px;
+	padding: 7px;
+}
+.toggel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20px;
+	width: 20px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
+.stretch {
+	overflow: hidden;
+	max-height: 68px;
+}
+.main-btn {
+	color: #fff;
+	border: 0;
+	background: rgb(31, 31, 31);
+	padding: 10px;
+	border-radius: 20px;
+}
+.primery-btn {
+	color: #000;
+	font-weight: 600;
+	border: 0;
+	background: #fff;
+	padding: 10px;
+	border-radius: 20px;
+}
+.secondary-btn {
+	color: white;
+	border: 0;
+	background: #525252;
+	padding: 10px;
+	border-radius: 20px;
+}
+.pop {
+	max-height: 700px;
+	overflow: scroll;
+}
+
+.edit
+,.delete {
+	cursor: pointer;
+}

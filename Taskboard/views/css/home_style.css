@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+	height: 100vh;
+	background: url('../img/background1.jpg');
+	background-position: center;
+	background-size: cover;
+	color: white !important;
+}
+h1 {
+	font-family: 'Blanka', sans-serif !important;
+	font-size: 100px !important;
+}
+#cont {
+	margin-bottom: 100px !important;
+}
+.main {
+	height: calc(100% - 71px);
+}
+.main-btn {
+	color: #000;
+	border: 0;
+	width: 100px;
+	background: #fff(31, 31, 31);
+	padding: 10px;
+	border-radius: 30px;
+}
+.main img {
+	width: 600px;
+}
+.getstart {
+	width: 150px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-btn:hover,
+.getstart:hover {
+	color: #fff;
+	border: #fff solid 1px;
+	background-color: transparent;
+}
+/* #login{
+
+} */
+.form-box {
+	width: 90%;
+  max-width: 450px;
+	height: 500px;
+	background-color: #fff;
+	padding: 50px;
+  text-align: center;
+}
+.btn-field{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-field button{
+  flex-basis: 48%;
+  background: #000;
+  color: #fff;
+  height: 40px;
+  border-radius:20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background 1s;
+}
+.form-box h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.input-field{
+  background: #eaeaea;
+  margin: 15px 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  max-height: 65px;
+  transition: max-height 1s;
+  overflow: hidden;
+}
+.input-field input{
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 18px 15px;
+}
+.btn-field button.disable{
+  background: #eaeaea;
+  color: #555;
+}
+#nameField{
+  max-height: 0;
+}
